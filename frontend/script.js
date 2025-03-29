@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Service 1", url: "http://localhost:5001/api" },
         { name: "Service 2", url: "http://localhost:5002/api" },
         { name: "Service 3", url: "http://localhost:5003/api" },
+        { name: "service 5", url: "http://localhost:5005/api" },
+        { name: "Service 6", url: "http://localhost:5006/api" },
+        { name: "Service 8", url: "http://localhost:5008/api" },
+        { name: "Service 10", url: "http://localhost:5010/api"}
         { name: "Service 11", url: "http://localhost:5011/api" }
     ];
 
