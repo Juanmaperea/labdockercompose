@@ -34,7 +34,7 @@ services:
     ports:
       - "5008:5008"
  
- service10:
+  service10:
     build: ./service10
     ports:
       - "5010:5010"
