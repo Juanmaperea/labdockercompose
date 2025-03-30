@@ -29,6 +29,11 @@ services:
     ports:
       - "5006:5006"
  
+  service7:
+    build: ./service7
+    ports:
+      - "5007:5007"
+
   service8:
     build: ./service8
     ports:
