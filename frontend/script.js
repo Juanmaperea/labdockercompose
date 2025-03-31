@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Service 6", url: "http://localhost:5006/api" },
         { name: "Service 7", url: "http://localhost:5007/api" },
         { name: "Service 8", url: "http://localhost:5008/api" },
-        { name: "Service 10", url: "http://localhost:5010/api"}
+        { name: "Service 10", url: "http://localhost:5010/api"},
+        { name: "Service 11", url: "http://localhost:5011/api"}
     ];
 
     const list = document.getElementById("services-list");
