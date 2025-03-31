@@ -18,6 +18,7 @@ services:
     build: ./service3
     ports:
       - "5003:5003"
+  
   service4:
     build: ./service4
     ports:
