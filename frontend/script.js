@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Script loaded and running - simplified version");
+    console.log("Script loaded and running");
     
     const services = [
         { name: "Service 1", url: "http://localhost:5001/api" },
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 list.appendChild(li);
             })
             .catch(error => {
-                console.error("Error connecting to the service:", error);
+                console.error("Error connecting to the service:", service.name, error);
                 const li = document.createElement("li");
                 li.innerHTML = `<strong>${service.name}:</strong> ❌ Not available`;
                 li.style.color = "red";
